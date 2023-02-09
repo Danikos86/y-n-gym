@@ -1,0 +1,18 @@
+                {/* <div className="trainer-content">
+                    <h2 className='trainer-title'>ПЕРСОНАЛЬНЫЙ ТРЕНЕР ЭТО</h2>
+                    <div className="trainer-info">
+                        <div className="trainer-plus">
+                            <img src={individualRation} alt="" />
+                            <p>Индивидуальный подбор питания</p>
+                        </div>
+                        <div className="trainer-plus">
+                            <img src={method} alt="" />
+                            <p>Подбор методики, в зависимости от ваших целей</p>
+                        </div>
+                        <div className="trainer-plus">
+                            <img src={train}alt="" />
+                            <p>Полная безопасность во время занятий</p>
+                        </div>
+                    </div>
+                    <h2 className='trainer-other'>И многое другое...</h2>
+                </div> */}
