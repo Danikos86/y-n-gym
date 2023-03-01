@@ -1,21 +1,12 @@
 import React, { useEffect } from 'react';
 import VanillaTilt from 'vanilla-tilt';
 
-import mainPhoto from '../assets/images/mainPhoto.jpg'
+import mainPhoto from '../assets/images/Main.png'
 
 
 
 const Main = () => {
-    useEffect(() => {
-        VanillaTilt.init(document.querySelector(".main-img"), {
-            max: 35,
-            speed: 300,
-            startX: 20,
-            startY: 10,
-            
-        }, []);
-    })
-    
+
     return (
         <section id='main' className='main'>
             <div className="container">
@@ -24,11 +15,13 @@ const Main = () => {
                         <div className='background'>
                             <span></span>
                         </div>
-                        <h3>The engineer of your body</h3>
+                        <h3>The engineer <br /> of <br /> your body</h3>
                         <p>
                         </p>
                     </div>
                     <div className="main-img">
+                        <div className="left-triangle"></div>
+                        <div className="right-triangle"></div>
                         <img src={mainPhoto} alt="" />
                     </div>
                 </div>

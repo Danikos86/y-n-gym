@@ -10,28 +10,11 @@ import photo4 from '../assets/images/tabsPictures/photo4.jpg'
 
 const Tabs = () => {
     const [activeTab, setActiveTab] = useState(1)
-
-/*     const tabs = document.querySelectorAll('.tabcontent') */
     
     const toggleTab = (index) => {
         setActiveTab(index);
     }
     
-/*     function selectTab(tabs) {
-        {tabs.map((tab, index) => 
-        <div>
-            key={index}
-            className={index === activeTab ? 'tabcontent tabcontent_active'  : 'tabcontent'}
-        </div>
-        )}
-    } */
-
-
-    
-/*     const activeTabStatus = () => {
-        if (toggleTab(index) ===)
-    } */
-
   return (
 
 
@@ -65,7 +48,6 @@ const Tabs = () => {
                     </div>
                 </div>
                 <div className="tabheader">
-                    <h3></h3>
                     <div className="tabheader__items">
                         <div className={activeTab === 1 ? "tabheader__item tabheader__item_active" : 'tabheader__item'} onClick={() => toggleTab(1)}>О фитнесе</div>
                         <div className={activeTab === 2 ? "tabheader__item tabheader__item_active" : 'tabheader__item'} onClick={() => toggleTab(2)}>О пользе</div>

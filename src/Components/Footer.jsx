@@ -8,10 +8,10 @@ const Footer = () => {
         <div className="container">
             <div className="footer-content">
                 <div className="social-links">
-                    <a className='social-tg' href="#">
+                    <a className='social-tg' href="https://t.me/Yaroslavned">
                         <img src={tg} alt="tg" />
                     </a>
-                    <a className='social-insta' href="#">
+                    <a className='social-insta' href="https://www.instagram.com/yaroslavned8/">
                         <img src={insta} alt="insta" />
                     </a>
                 </div>
